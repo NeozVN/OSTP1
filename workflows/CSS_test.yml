@@ -1,0 +1,20 @@
+name: CSS Tests
+
+on:
+  pull_request:
+    paths:
+      - '**/*.css'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Git Repository
+      uses: actions/checkout@v2
+
+    - name: Install stylelint
+      run: npm install stylelint --global
+
+    - name: CSS Tests In Process
+      run: stylelint '**/*.css'
