@@ -5,6 +5,30 @@ L'objectif de ce projet est de créer un site où l'on propose et partage diffé
 
 ![Nombre de Stars](https://img.shields.io/github/stars/NeozVN/OSTP1?style=for-the-badge)
 
-# Pour installer et lancer notre projet 
+## Pour installer et lancer notre projet 
 
-(1) 
+#### Sur Git hub 
+
+1. Récupérer et copier l'URL du projet OSTP1 ( https://github.com/NeozVN/OSTP1.git )
+
+#### Sur Git Bash
+
+2. Installez Git Bash ( https://git-scm.com/downloads )
+
+3. Créer un répertoire et l'initialiser sur Git Bash
+    >mkdir nom_du_répertoire
+
+    >cd nom_du_répertoire
+    
+    >git init
+
+4. Cloner le dépot distant sur Git Hub sur notre répertoire Git créé
+    >git remote add origin https://github.com/NeozVN/OSTP1.git
+
+5. Récupérer toutes les modifications et constructions du projet sur la branche principale ( master ) de versions de notre projet 
+    > git merge origin/master
+ 
+    OU 
+
+    > git rebase origin/master
+
