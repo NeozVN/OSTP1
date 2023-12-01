@@ -52,3 +52,6 @@ L'objectif de ce projet est de créer un site où l'on propose et partage diffé
 10. Rapporter les commits vers le dépôt distant 
     > git push 
 
+## Auteur 
+
+NeozVN - Enzo ANTUNES, classe : 2A1
