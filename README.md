@@ -32,3 +32,23 @@ L'objectif de ce projet est de créer un site où l'on propose et partage diffé
 
     > git rebase origin/master
 
+## Contribuer au projet 
+
+#### Sur l'éditeur de code 
+
+6. Lancer le dossier du projet sur un IDE pour de l'html/CSS, tel que VS code 
+
+7. Installez des extensions pour votre éditeur si besoin
+
+8. Ajouter au dossier des fichiers html/CSS ou Modifer les fichiers déjà présents 
+
+#### Sur Git hub 
+
+9. Créer un commit après chaque modification apportée au dossier 
+    > git add .
+
+    > git commit -m "description" 
+
+10. Rapporter les commits vers le dépôt distant 
+    > git push 
+
